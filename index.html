@@ -11,25 +11,43 @@
 		<div class="header__logo"><p>mycompany</p></div>
 		<nav>
 			<div class="topnav" id="myTopnav">
-				<a href="">Домой</a>
-				<a href="">О нас</a>
-				<a href="">Работы</a>
-				<a href="">Портфолио</a>
-				<a href="">Тестемонияс</a>
-				<a href="">Контакты</a>
-				<a href="" id="menu" class="icon">&#9776;</a>
+				<a href="#">Домой</a>
+				<a href="#">О нас</a>
+				<a href="#">Работы</a>
+				<a href="#">Портфолио</a>
+				<a href="#">Тестемонияс</a>
+				<a href="#">Контакты</a>
+				<a href="#" id="menu" class="icon">&#9776;</a>
 			</div>
 		</nav>
 	</header>
 
+	<main>
+		<div class="main_welcomme">
+			<h1>Добро пожаловать <span class="mycompany">в мою компанию</span></h1>
+			<p>какой то текси</p>
+		</div>
+		<div class="wrapper">
+			<div class="main_about">
+				<div class="about_left">
+					<img src="https://i.ytimg.com/vi/bvL5zTry6dA/maxresdefault.jpg" alt="">
+				</div>
+				<div class="about_right">
+					<h1>текст</h1>
+				</div>
+			</div>
+		</div>
+	</main>
 
 
 
 
 
+	<!--скрипт для адаптивного мнгю-->
 	<script type="text/javascript">
-		menu.onclick = function myfunction() {
-			var x = document.detElementById('myTopnav');
+		
+		menu.onclick = function myFunction() {
+			var x = document.getElementById('myTopnav');
 
 			if (x.className === "topnav") {
 				x.className += " responsive";

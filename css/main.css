@@ -41,6 +41,43 @@ nav {
 .topnav .icon {
 	display: none;
 }
+main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+main .main_welcomme {
+	background: #000;
+	text-align: center;
+	padding: 200px 0 410px 0;
+}
+main .main_welcomme p {
+	color: #999;
+	font-size: 20px;
+}
+main .main_welcomme h1 {
+	color: #999;
+	font-size: 44px;
+}
+.mycompany {
+	color: #feb70e;
+}
+.wrapper {
+	width: 76%;
+	margin: 0 auto;
+}
+main .main_about {
+	display: flex;
+	padding: 100px 0 100px 0;
+}
+.about_right {
+	margin-left: 175px;
+}
+
+
+
+
+
 
 
 
@@ -54,13 +91,13 @@ nav {
 
 @media screen and (max-width: 1200px) {
 	nav {
-		margin-left: 20px;
+		margin-left: 20%;
 	}
 }
 
 @media screen and (max-width: 1105px) {
 	nav {
-		margin-left: 10px;
+		margin-left: 10%;
 	}
 }
 
@@ -89,7 +126,7 @@ nav {
 	.topnav.responsive a.icon {
 		position: absolute;
 		top: -50px;
-		left: -200px;
+		right: -200px;
 	}
 	.topnav.responsive a {
 		float: none;
