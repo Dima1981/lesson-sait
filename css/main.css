@@ -85,8 +85,93 @@ main .main_about {
 .mw-100 {
 	min-width: 100%;
 }
-
-
+.main__team {
+	background-color: #000;
+	text-align: center;
+	padding: 100px 0 165px 0;
+	color: #fff;
+}
+.main__team h1 {
+	font-size: 44px;
+	padding-bottom: 30px;
+}
+.line {
+	width: 100px;
+	height: 3px;
+	background: #fcac45;
+	position: relative;
+	left: 45.5%;
+	margin-bottom: 85px;
+}
+.photo {
+	background: #d7d7d7;
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	margin: 20px auto;
+}
+.team__cards {
+	display: flex;
+}
+.cards {
+	margin: 0 40px;
+}
+.name {
+	font-size: 20px;
+	margin-bottom: 7px;
+}
+.position {
+	font-size: 16px;
+	margin-bottom: 35px;
+}
+.abaut__position {
+	font-size: 14px;
+}
+.servicec__cards {
+	text-align: center;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	grid-column-gap: 20px;	
+}
+.main__servicec h1 {
+	text-align: center;
+	padding: 100px 0 30px 0;
+}
+.main__servicec p {
+	margin-bottom: 100px;
+}
+.cervicec__card h4 {
+	margin-top: 20px;
+	margin-bottom: 15PX;
+}
+.main__clients {
+	background: #000;
+	padding: 100px 0 200px 0;
+	color: #fff;
+	text-align: center;
+}
+.main__clients h1 {
+	margin-bottom: 30px;
+}
+.main__clients img {
+	margin-top: 10px;
+	padding-left: 30px;
+}
+.main__testimonials {
+	background: #000;
+	text-align: center;
+	color: #fff;
+	padding-bottom: 170px;
+}
+.main__testimonials h1 {
+	text-transform: uppercase;
+	margin-top: 100px;
+	margin-bottom: 30px;
+}
+.main__testimonials .testimonial{
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
 
 
 
@@ -165,5 +250,11 @@ main .main_about {
 	.about_right {
 		text-align: center;
 		margin-left: 0;
+	}
+	.team__cards {
+		flex-direction: column;
+	}
+	.servicec__cards {
+		grid-template-columns: auto;
 	}
 }
